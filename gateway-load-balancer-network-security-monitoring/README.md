@@ -1,6 +1,6 @@
 # Building a Cloud SIEM with AWS OpenSearch Security Analytics
 
-This is the repository for the official tecRacer blog post [Building a Cloud SIEM with AWS OpenSearch Security Analytics](https://www.tecracer.com/blog/2024/09/building-a-cloud-siem-with-aws-opensearch-security-analytics.html).
+This is the repository for the official blog post [Building a Cloud SIEM with AWS OpenSearch Security Analytics](https://www.hendrikhagen.com/blog/2024-09-16-opensearch-siem/).
 
 ## Architecture
 
@@ -59,7 +59,7 @@ After parsing, the logs are collected by Logstash and then forwarded to the AWS 
 
 ### Setup
 
-As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.tecracer.com/blog/2024/09/building-a-cloud-siem-with-aws-opensearch-security-analytics.html).
+As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.hendrikhagen.com/blog/2024-09-16-opensearch-siem/).
 
 ### Result
 

@@ -1,6 +1,6 @@
 # Version Control your Database on AWS using Flyway
 
-This is the repository for the official tecRacer blog post [Version Control your Database on AWS using Flyway](https://www.tecracer.com/blog/2023/03/version-control-your-database-on-aws-using-flyway.html).
+This is the repository for the official blog post [Version Control your Database on AWS using Flyway](https://www.hendrikhagen.com/blog/2023-03-31-version-control-your-database/).
 
 # Architecture
 

@@ -9,7 +9,7 @@ pipeline {
                 echo 'git checkout'            
                 
                 git branch: 'main',
-                    url: 'https://github.com/Eraszz/tecracer-blog-projects.git'
+                    url: 'https://github.com/Eraszz/blog-projects.git'
             }
         }
 

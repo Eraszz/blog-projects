@@ -1,6 +1,6 @@
 # Streamlined Kafka Schema Evolution in AWS using MSK and the Glue Schema Registry
 
-This is the repository for the official tecRacer blog post [Streamlined Kafka Schema Evolution in AWS using MSK and the Glue Schema Registry](https://www.tecracer.com/blog/2023/12/streamlined-kafka-schema-evolution-in-aws-using-msk-and-the-glue-schema-registry.html).
+This is the repository for the official blog post [Streamlined Kafka Schema Evolution in AWS using MSK and the Glue Schema Registry](https://www.hendrikhagen.com/blog/2023-12-23-kafka-schema-evolution/).
 
 # Architecture
 

@@ -1,6 +1,6 @@
 # Build a scalable IDS and IPS solution using Suricata and AWS Gateway Load Balancer
 
-This is the repository for the official tecRacer blog post [Build a scalable IDS and IPS solution using Suricata and AWS Gateway Load Balancer](https://www.tecracer.com/blog/2024/05/build-a-scalable-ids-and-ips-solution-using-suricata-and-aws-gateway-load-balancer.html).
+This is the repository for the official blog post [Build a scalable IDS and IPS solution using Suricata and AWS Gateway Load Balancer](https://www.hendrikhagen.com/blog/2024-05-21-gwlb-appliance/).
 
 # Architecture
 

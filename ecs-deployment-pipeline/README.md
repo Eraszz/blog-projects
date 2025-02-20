@@ -1,6 +1,6 @@
 # Automated ECS deployments using AWS CodePipeline
 
-This is the repository for the official tecRacer blog post [Automated ECS deployments using AWS CodePipeline](https://www.tecracer.com/blog/2024/03/ci/cd-pipeline-for-ecs.html).
+This is the repository for the official blog post [Automated ECS deployments using AWS CodePipeline](https://www.hendrikhagen.com/blog/2024-03-27-ecs-deployment-pipeline/).
 
 # Architecture
 

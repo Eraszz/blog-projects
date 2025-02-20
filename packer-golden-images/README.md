@@ -1,6 +1,6 @@
 # Build Golden AMIs with Packer and AWS CodePipeline
 
-This is the repository for the official tecRacer blog post [Build Golden AMIs with Packer and AWS CodePipeline](https://www.tecracer.com/blog/2023/11/build-golden-amis-with-packer-and-aws-codepipeline.html).
+This is the repository for the official blog post [Build Golden AMIs with Packer and AWS CodePipeline](https://www.hendrikhagen.com/blog/2023-11-16-golden-ami-pipeline-with-packer/).
 
 ## Architecture
 

@@ -1,6 +1,6 @@
 # Hybrid DNS resolution using Route 53 Endpoints
 
-This is the repository for the official tecRacer blog post [Hybrid DNS resolution using Route 53 Endpoints](https://www.tecracer.com/blog/2023/08/hybrid-dns-resolution-using-route-53-endpoints.html).
+This is the repository for the official blog post [Hybrid DNS resolution using Route 53 Endpoints](https://www.hendrikhagen.com/blog/2023-08-15-route53-endpoints/).
 
 ## Architecture
 
@@ -54,7 +54,7 @@ In our example, the flow starts with a DNS query by the on-premises Web Server f
 
 ### Setup
 
-As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.tecracer.com/blog/2023/08/hybrid-dns-resolution-using-route-53-endpoints.html).
+As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.hendrikhagen.com/blog/2023-08-15-route53-endpoints/).
 
 ### Result
 

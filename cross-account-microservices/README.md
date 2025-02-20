@@ -1,6 +1,6 @@
 # Serverless Cross-Account Microservices
 
-This is the repository for the official tecRacer blog post [Serverless Cross-Account Microservices](https://www.tecracer.com/blog/2023/06/serverless-cross-account-microservices.html).
+This is the repository for the official blog post [Serverless Cross-Account Microservices](https://www.hendrikhagen.com/blog/2023-06-23-cross-account-microservices/).
 
 # Architecture
 

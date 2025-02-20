@@ -1,10 +1,10 @@
 # Cross Account Kafka Streaming
 
-This is the repository for the official tecRacer two-part blog series.
+This is the repository for the official two-part blog series.
 
-Part 1: [Cross Account Kafka Streaming: Part 1](https://www.tecracer.com/blog/2023/05/cross-account-kafka-streaming-part-1.html).
+Part 1: [Cross Account Kafka Streaming: Part 1](https://www.hendrikhagen.com/blog/2023-05-10-part-1-cross-account-msk-data-streaming/).
 
-Part 2: [Cross Account Kafka Streaming: Part 2](https://www.tecracer.com/blog/2023/05/cross-account-kafka-streaming-part-2.html).
+Part 2: [Cross Account Kafka Streaming: Part 2](https://www.hendrikhagen.com/blog/2023-05-10-part-2-cross-account-msk-data-streaming/).
 
 # Architecture
 

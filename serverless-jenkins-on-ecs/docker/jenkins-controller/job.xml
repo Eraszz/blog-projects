@@ -13,7 +13,7 @@
   <keepDependencies>false</keepDependencies>
   <properties>
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.37.0">
-      <projectUrl>https://github.com/Eraszz/tecracer-blog-projects.git/</projectUrl>
+      <projectUrl>https://github.com/Eraszz/blog-projects.git/</projectUrl>
       <displayName></displayName>
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
   </properties>
@@ -29,7 +29,7 @@
                 echo &apos;git checkout&apos;            
                 
                 git branch: &apos;main&apos;,
-                    url: &apos;https://github.com/Eraszz/tecracer-blog-projects.git&apos;
+                    url: &apos;https://github.com/Eraszz/blog-projects.git&apos;
             }
         }
 

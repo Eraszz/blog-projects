@@ -1,6 +1,6 @@
 # Open Policy Agent for AWS and Terraform
 
-This is the repository for the official tecRacer blog post [Open Policy Agent for AWS and Terraform](https://www.tecracer.com/blog/2023/03/open-policy-agent-for-aws-and-terraform.html).
+This is the repository for the official blog post [Open Policy Agent for AWS and Terraform](https://www.hendrikhagen.com/blog/2023-03-17-opa-for-terraform/).
 
 ## Workflow
 
@@ -28,7 +28,7 @@ The first step of the process starts with the developer and the development of T
 
 ### Result
 
-The initial Terraform configuration which is part of this repository is non-compliant. The main goal of this example and the corresponding blog post is to adjust the Terraform configuration to make it compliant. For more information please visit [Open Policy Agent for AWS and Terraform](https://www.tecracer.com/blog/2023/03/open-policy-agent-for-aws-and-terraform.html) for the official blog post.
+The initial Terraform configuration which is part of this repository is non-compliant. The main goal of this example and the corresponding blog post is to adjust the Terraform configuration to make it compliant. For more information please visit [Open Policy Agent for AWS and Terraform](https://www.hendrikhagen.com/blog/2023-03-17-opa-for-terraform/) for the official blog post.
 
 ### Customization
 

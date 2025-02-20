@@ -1,6 +1,6 @@
 # Secretless Terraform Deployments
 
-This is the repository for the official tecRacer blog post [Secretless Terraform Deployments](https://www.tecracer.com/blog/2023/03/secretless-terraform-deployments.html).
+This is the repository for the official blog post [Secretless Terraform Deployments](https://www.hendrikhagen.com/blog/2023-03-21-secretless-terraform-deplyoment/).
 
 ## Workflow
 

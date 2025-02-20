@@ -1,6 +1,6 @@
 # Build a Site-to-Site IPSec VPN with Public Encryption Domain
 
-This is the repository for the official tecRacer blog post [Build a Site-to-Site IPSec VPN with Public Encryption Domain](https://www.tecracer.com/blog/2023/06/build-a-site-to-site-ipsec-vpn-with-public-encryption-domain.html).
+This is the repository for the official blog post [Build a Site-to-Site IPSec VPN with Public Encryption Domain](https://www.hendrikhagen.com/blog/2023-06-05-vpn-public-encryption-domain/).
 
 # Architecture
 
@@ -33,7 +33,7 @@ Besides the `Elastic IPs (VPN Peer IP)`, we will also request additional `Elasti
 
 ### Setup
 
-As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.tecracer.com/blog/2023/06/build-a-site-to-site-ipsec-vpn-with-public-encryption-domain.html).
+As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.hendrikhagen.com/blog/2023-06-05-vpn-public-encryption-domain/).
 
 ### Result
 

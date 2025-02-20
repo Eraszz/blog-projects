@@ -1,6 +1,6 @@
 # Build Terraform CI/CD Pipelines using AWS CodePipeline
 
-This is the repository for the official tecRacer blog post [Build Terraform CI/CD Pipelines using AWS CodePipeline](https://www.tecracer.com/blog/2023/05/build-terraform-ci/cd-pipelines-using-aws-codepipeline.html).
+This is the repository for the official blog post [Build Terraform CI/CD Pipelines using AWS CodePipeline](https://www.hendrikhagen.com/blog/2023-05-30-terraform-ci-cd-pipelines/).
 
 # Architecture
 

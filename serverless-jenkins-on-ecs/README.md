@@ -1,12 +1,12 @@
 # Serverless Jenkins on ECS Fargate
 
-This is the repository for the official tecRacer three-part blog series.
+This is the repository for the official three-part blog series.
 
-Part 1: [Serverless Jenkins on ECS Fargate: Part 1](https://www.tecracer.com/blog/2023/05/serverless-jenkins-on-ecs-fargate-part-1.html).
+Part 1: [Serverless Jenkins on ECS Fargate: Part 1](https://www.hendrikhagen.com/blog/2023-05-08-part-1-serverless-jenkins-on-ecs/).
 
-Part 2: [Serverless Jenkins on ECS Fargate: Part 2](https://www.tecracer.com/blog/2023/05/serverless-jenkins-on-ecs-fargate-part-2.html).
+Part 2: [Serverless Jenkins on ECS Fargate: Part 2](https://www.hendrikhagen.com/blog/2023-05-08-part-2-serverless-jenkins-on-ecs/).
 
-Part 3: [Serverless Jenkins on ECS Fargate: Part 3](https://www.tecracer.com/blog/2023/05/serverless-jenkins-on-ecs-fargate-part-3.html).
+Part 3: [Serverless Jenkins on ECS Fargate: Part 3](https://www.hendrikhagen.com/blog/2023-05-08-part-3-serverless-jenkins-on-ecs/).
 
 # Architecture
 

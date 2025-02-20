@@ -1,0 +1,107 @@
+{
+  "Comment": "A description of my state machine",
+  "StartAt": "Pass",
+  "States": {
+    "Pass": {
+      "Type": "Pass",
+      "Output": {
+        "bucket_name": "{% $states.input.bucket_name %}",
+        "object_key": "{% $states.input.object_key %}",
+        "database_name": "{% $split($states.input.object_key, '/')[0] %}",
+        "table_name": "{% $split($states.input.object_key, '/')[1] %}",
+        "file_name": "{% $split($states.input.object_key, '/')[2] %}",
+        "crawler_name": "{% $join([$states.input.crawler_prefix,$split($states.input.object_key, '/')[0],$split($states.input.object_key, '/')[1]], '-' ) %}"
+      },
+      "Next": "Choice (Init or Incremental)"
+    },
+    "Choice (Init or Incremental)": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Next": "StartCrawler",
+          "Condition": "{% $states.input.file_name = 'LOAD00000001.csv' %}"
+        }
+      ],
+      "Default": "Glue StartJobRun (Incremental)"
+    },
+    "Glue StartJobRun (Incremental)": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun",
+      "Arguments": {
+        "JobName": "${glue_incremental_job_name}",
+        "Arguments": {
+          "--raw_zone_bucket_name": "{% $states.input.bucket_name %}",
+          "--object_key": "{% $states.input.object_key %}",
+          "--source_database_name": "{% $states.input.database_name %}",
+          "--source_table_name": "{% $states.input.table_name %}",
+          "--source_file_name": "{% $states.input.file_name %}"
+        }
+      },
+      "End": true
+    },
+    "StartCrawler": {
+      "Type": "Task",
+      "Arguments": {
+        "Name": "{% $states.input.crawler_name %}"
+      },
+      "Resource": "arn:aws:states:::aws-sdk:glue:startCrawler",
+      "Next": "GetCrawler",
+      "Output": {
+        "bucket_name": "{% $states.input.bucket_name %}",
+        "object_key": "{% $states.input.object_key %}",
+        "database_name": "{% $states.input.database_name %}",
+        "table_name": "{% $states.input.table_name %}",
+        "file_name": "{% $states.input.file_name %}",
+        "crawler_name": "{% $states.input.crawler_name %}"
+      }
+    },
+    "GetCrawler": {
+      "Type": "Task",
+      "Arguments": {
+        "Name": "{% $states.input.crawler_name %}"
+      },
+      "Resource": "arn:aws:states:::aws-sdk:glue:getCrawler",
+      "Output": {
+        "bucket_name": "{% $states.input.bucket_name %}",
+        "object_key": "{% $states.input.object_key %}",
+        "database_name": "{% $states.input.database_name %}",
+        "table_name": "{% $states.input.table_name %}",
+        "file_name": "{% $states.input.file_name %}",
+        "crawler_name": "{% $states.input.crawler_name %}",
+        "crawler_state": "{% $states.result.Crawler.State %}"
+      },
+      "Next": "Choice (Crawler READY)"
+    },
+    "Choice (Crawler READY)": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Next": "Wait",
+          "Condition": "{% $states.input.crawler_state != 'READY' %}"
+        }
+      ],
+      "Default": "Glue StartJobRun (Init)"
+    },
+    "Glue StartJobRun (Init)": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun",
+      "Arguments": {
+        "JobName": "${glue_init_job_name}",
+        "Arguments": {
+          "--raw_zone_bucket_name": "{% $states.input.bucket_name %}",
+          "--object_key": "{% $states.input.object_key %}",
+          "--source_database_name": "{% $states.input.database_name %}",
+          "--source_table_name": "{% $states.input.table_name %}",
+          "--source_file_name": "{% $states.input.file_name %}"
+        }
+      },
+      "End": true
+    },
+    "Wait": {
+      "Type": "Wait",
+      "Seconds": 5,
+      "Next": "GetCrawler"
+    }
+  },
+  "QueryLanguage": "JSONata"
+}

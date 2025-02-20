@@ -1,6 +1,6 @@
 # Centralized traffic filtering using AWS Network Firewall
 
-This is the repository for the official tecRacer blog post [Centralized traffic filtering using AWS Network Firewall](https://www.tecracer.com/blog/2023/11/centralized-traffic-filtering-using-aws-network-firewall.html).
+This is the repository for the official blog post [Centralized traffic filtering using AWS Network Firewall](https://www.hendrikhagen.com/blog/2023-11-27-centralized-network-filtering-network-firewall/).
 
 ## Architecture
 

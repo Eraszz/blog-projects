@@ -1,6 +1,6 @@
 # Multiple Site-to-Site VPN Connections in AWS Hub and Spoke Topology
 
-This is the repository for the official tecRacer blog post [Multiple Site-to-Site VPN Connections in AWS Hub and Spoke Topology](https://www.tecracer.com/blog/2023/08/multiple-site-to-site-vpn-connections-in-aws-hub-and-spoke-topology.html).
+This is the repository for the official blog post [Multiple Site-to-Site VPN Connections in AWS Hub and Spoke Topology](https://www.hendrikhagen.com/blog/2023-08-03-multiple-site-to-site-vpn/).
 
 # Architecture
 
@@ -31,7 +31,7 @@ In order to create a hub and spoke network and allow communication between all p
 
 ### Setup
 
-As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.tecracer.com/blog/2023/08/multiple-site-to-site-vpn-connections-in-aws-hub-and-spoke-topology.html).
+As this example includes manual configuration steps, please follow the step-by-step instructions of the original [blog post](https://www.hendrikhagen.com/blog/2023-08-03-multiple-site-to-site-vpn/).
 
 ### Result
 
