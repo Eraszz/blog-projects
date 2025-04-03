@@ -3,7 +3,7 @@ output "s3_bucket_name" {
   value = aws_s3_bucket.this.id
 }
 
-output "rds_endpoit" {
+output "rds_endpoint" {
   description = "Endpoint of the RDS MySQL database. Needed to create a connection in DBeaver."
   value = aws_db_instance.this.endpoint
 }
