@@ -4,6 +4,6 @@ variable "application_name" {
 }
 
 variable "sns_endpoint" {
-  description = "Terraform version to install in CodeBuild Container"
+  description = "Email used for the SNS subscription"
   type        = string
 }
